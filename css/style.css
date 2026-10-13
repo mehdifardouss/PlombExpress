@@ -235,13 +235,15 @@ text-align: center;
     border: 1px solid #080808;
     border-radius: 10px;
     background-color: #ffffff;
-    text-align: center;
     color: rgb(0, 0, 0);
     height: 10px;
-    width: 150px;
+    width: 160px;
     padding: 20px;
-     margin: 15px;
-    margin-left:650px;
+    margin: 15px;
+    margin-top: 45px;
+    margin-left: 42%;
+  
+   
 }
 .container2 a{
     font-family: Inter;
@@ -254,17 +256,162 @@ letter-spacing: 0%;
 
 }
 .container3{
+    background-color:  #F3F7FA;
+;padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    gap: 80px;
+    gap:120px;
 }
 .container3 img{
-    margin-left:100PX;
-    width: 400px;
-    height: 400px;
+    margin-left:50PX;
+    width: 500px;
+    height: 500px;
     border-radius: 25PX;
 }
 .texte-pourquoi{
     width: 40%;
     height: auto;
+}
+.l3onwan{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.liste-avantages{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;}
+    .petit-texte3{font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 12px;
+color: #0866C2;
+line-height: 140%;
+letter-spacing: 1.8px;
+}
+.slaak{font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+
+line-height: 120%;
+letter-spacing: -1.2px;
+}
+.slaaak{
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color:  #486176;
+;
+line-height: 165%;
+letter-spacing: 0%;
+
+}
+footer {
+    background-color: #112D46;
+    color: white;
+    padding: 50px 0 24px;
+    font-family: Arial, sans-serif;
+}
+
+footer .container {
+    width: 90%;
+    max-width: 1060px;
+    margin: auto;
+}
+
+.footer-contenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-entreprise {
+    width: 260px;
+}
+
+.footer-entreprise img {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.footer-entreprise h2 {
+    display: inline-block;
+    font-size: 21px;
+    margin: 0 0 18px 5px;
+    vertical-align: middle;
+}
+
+.footer-entreprise h2 span {
+    color: white;
+}
+
+.footer-entreprise p {
+    color: #B8C8D7;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.footer-liens,
+.footer-services,
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.footer-liens,
+.footer-services {
+    min-width: 150px;
+}
+
+.footer-contenu h3 {
+    font-size: 13px;
+    margin: 0 0 6px;
+}
+
+.footer-contenu a {
+    color: #B8C8D7;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.3s;
+}
+
+.footer-contenu a:hover {
+    color: #1685E5;
+}
+
+.footer-contact p {
+    color: #B8C8D7;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer-bas {
+    border-top: 1px solid #294258;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bas p {
+    color: #B8C8D7;
+    font-size: 11px;
+    margin: 0;
+}
+
+.footer-bas p:last-child {
+    word-spacing: 15px;
+}
+.lakher{
+    display: flex;
+  gap: 12px;
 }
