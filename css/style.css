@@ -1,0 +1,213 @@
+.container {
+    margin: 30px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accueil {
+    background-color: #F3F7FA;
+
+    ;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    gap: 5PX;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: -0.9px;
+}
+
+.logo span {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: -0.9px;
+    color: #0866C2;
+    ;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #0866C2;
+}
+
+.boutonorange {
+    display: flex;
+    border: 1px solid #FF6418;
+    border-radius: 10px;
+    background-color: #FF6418;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    color: aliceblue;
+    height: 10px;
+}
+
+.part1 {
+
+    padding-top: 50px;
+    margin: 50px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.petittexte1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0866C2;
+}
+
+.slide11 h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 112.00000000000001%;
+    letter-spacing: -2.1px;
+
+}
+
+.petittexte2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 17px;
+    color: #486176;
+
+    line-height: 165%;
+    letter-spacing: 0%;
+
+}
+
+.boutons {
+    display: flex;
+    gap: 25px;
+}
+
+.boutonblanc1 {
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    height: 10px;
+}
+
+.a7laplombier {
+    border-radius: 15px;
+
+}
+
+.avantage {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+i {
+    color: #0866C2;
+}
+
+.AAA {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.savoirefaire {
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+.carte img{
+    width: 100%;
+    object-fit: cover;
+}
+.carte-texte{
+    padding: 20PX;
+}
+.carte-texte p {
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+color:#486176;
+line-height: 165%;
+letter-spacing: 0%;
+}
+
+.titree{
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+color: #102A43;
+line-height: 120%;
+letter-spacing: -1.2px;
+text-align: center;
+
+}
+
+.cartes-services {
+    display: flex;
+    gap: 30px;
+    flex: 1;
+}
+
+.carte {
+    display: flex;
+    gap: 20px;
+    border:  #486176 solid 2px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titrep2 {
+
+    text-align: center;
+
+}
