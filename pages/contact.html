@@ -16,7 +16,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src=".//assets/images/logo.png" alt="logo de pomper">
+                <img src="../assets/images/logo.png" alt="logo de pomper">
                 <h2>Plomb'<span>Express</span></h2>
             </div>
             <nav>
@@ -29,33 +29,33 @@
         </div>
     </header>
     <main>
-        <div class="introduction">
-            <div>
-                <p> CONTACTEZ-NOUS</p>
-            </div>
-            <div>
-                <h1>Parlons de votre projet</h1>
-            </div>
-            <div>
+        <div class="notre-metier">
+            
+                <h5> CONTACTEZ-NOUS</h5>
+                <h1 class="lmochkil">Parlons de votre projet</h1>
                 <p>Une fuite, une panne de chauffe-eau,
                     une installation à prévoir ?
                     Notre équipe répond à toutes vos questions
                     et vous propose un devis gratuit sous 24h.
                 </p>
-            </div>
-        </div>
-        <section class="form">
+        </div><div class="allcontact"> <div class="part2deform"><section class="form">
+            <div class="divtext">
+                <h3 class="lepluss">Envoyez-nous un message</h3>
+            <p>Remplissez le formulaire ci-dessous et nous reviendrons vers vous rapidement.</p></div>
             <form action="">
-                <label for="prenom">Prénom</label>
-                <input type="text">
-                <label for="nom">Nom</label>
-                <input type="text">
+                <div class="noompre">
+                    <div><label for="prenom">Prénom</label>
+                <input type="text" required placeholder="Votre prénom"></div>
+               <div> <label for="nom" >Nom</label>
+                <input type="text" required  placeholder="Votre nom"></div>
+                </div>
                 <label for="adresseemail">Adresse e-mail</label>
-                <input type="email">
+                <input type="email" required placeholder="exemple@email.com">
                 <label for="Téléphone">Téléphone</label>
-                <input type="tel">
+                <input type="tel" required placeholder="06 00 00 00 00">
                 <label for="Votre-message">Votre message</label>
-                <textarea id="Votre-message" name="description" rows="5" cols="40"></textarea>
+                <textarea id="Votre-message" name="description" rows="30" cols="60" required placeholder="Décrivez votre besoin, le type de panne ou d'installation souhaitée…"></textarea>
+                <button >Envoyer le message</button>
             </form>
         </section>
         <section class="certe-contact">
@@ -86,12 +86,13 @@
             </div>
 
         </section>
+       </div>
     </main>
     <footer>
         <div class="container999">
             <div class="footer-contenu">
                 <div class="footer-entreprise">
-                    <img src="assets/images/logo.png" alt="logodefooterr">
+                    <img src="../assets/images/logo.png" alt="logodefooterr">
                     <h2>Plomb<span>Express</span></h2>
                     <p>
                         Votre partenaire plomberie pour un quotidien serein.
