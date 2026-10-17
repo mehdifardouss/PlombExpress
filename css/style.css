@@ -338,6 +338,20 @@ line-height: 165%;
 letter-spacing: 0%;
 
 }
+.services{padding: 50px;}
+.mab{font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 112.00000000000001%;
+    letter-spacing: -2.1px;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 112.00000000000001%;
+    letter-spacing: -2.1px;}
+
 footer {
     background-color: #112D46;
     color: white;
