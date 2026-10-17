@@ -8,6 +8,12 @@
 body{
     width: 100%;
 }
+.burger-menu {
+    display: none;
+    background: none;
+    border: none;
+    
+}
 
 .accueil {
     background-color: #F3F7FA;
@@ -335,7 +341,7 @@ letter-spacing: 0%;
 footer {
     background-color: #112D46;
     color: white;
-   
+  
     padding: 50px 0 24px;
     font-family: Arial, sans-serif;
 }
@@ -379,7 +385,7 @@ letter-spacing: -2.1px;
 article{background-color: #ffffff;}
 article p {}
 .footer-contenu {
-    
+     margin: 15px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -506,6 +512,11 @@ letter-spacing: -1.2px;
 .divtext{
     margin-bottom: 40px;
 }
+#menu,
+.burger-menu {
+    display: none;
+}
+
 
 @media (max-width: 600px) {
    
@@ -513,7 +524,51 @@ letter-spacing: -1.2px;
     body {
         margin: 0;
     }
+   
+     header nav {
+        flex-wrap: wrap;
+    }
 
+    .burger-menu {
+        display: block;
+    
+        font-size: 25px;
+    }
+
+    header nav a {
+        display: none;
+        width: 100%;
+    }
+
+    #menu:checked ~ a {
+        display: block;
+    } header nav {
+        flex-wrap: wrap;
+    }
+
+    .burger-menu {
+        margin-right: 30px;
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+        
+    }
+nav i  {color: #080808;}
+    header nav a {
+        display: none;
+        width: 100%;
+    }
+
+    #menu:checked ~ a {
+        display: block;
+    }
+    header .boutonorange {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0;
+    }
     .boutonblanc2{
         margin-left: 0px;
     }
